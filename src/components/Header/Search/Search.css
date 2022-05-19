@@ -1,0 +1,27 @@
+.bigbox{
+    width: 500px;
+    height: 36px;
+    border: 2px rgba(222, 223, 230, 0.685) solid;
+    border-radius: 20px;
+  }
+.bigbox:hover{
+    width: 500px;
+    height: 36px;
+    border: 2px rgba(69, 85, 206, 0.685) solid;
+    border-radius: 20px;
+}
+.bigbox .inp{
+  width: 450px;
+  caret-color: rgb(0, 0, 0);
+  height: 30px;
+  background: transparent;
+  padding-left: 40px;
+  padding-top:2px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  /* 通过border-radius设置文本框左上圆角属性 */
+  border-top-left-radius: 20px;
+  /* 通过border-radius设置文本框左下圆角属性 */
+  border-bottom-left-radius: 20px;
+}  
